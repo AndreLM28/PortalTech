@@ -5,3 +5,5 @@ Atividade Portal tech HTML, Exercício: A cidade do Recife é uma das mais famos
  3. Use a tag de semântica textual inline. 
 
  Abuse de sua criatividade para a criação da página! 
+ 
+ ![image](https://user-images.githubusercontent.com/116391246/203812422-eb8097d8-1ec7-4a19-a5cf-90c1044e4f84.png)

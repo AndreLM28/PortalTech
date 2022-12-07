@@ -11,6 +11,7 @@
 }
 .home-header-logo-img {
   border:dotted 5px blueviolet ;
+  padding: 20px;
 }
 
 .header-nav-list {

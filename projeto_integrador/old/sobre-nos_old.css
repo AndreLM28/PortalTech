@@ -1,0 +1,182 @@
+* {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   text-decoration: none; 
+}
+
+
+body {
+   height: 100vh; 
+}
+/* Main - Neuro e Biofilia */
+/* SECTION-TITLE */
+.main-content-biofilia-title{
+   /* background-color: rgb(194, 209, 184); */
+   background-color: #bca0dd;
+   display: flex;
+   width: 1485;
+}
+/* TITlE */
+.biofilia-box-title{
+   background: url(assets/imagem_neuroarquitetura-transparente-50.png) 
+   center no-repeat ; 
+}
+
+ 
+.biofilia-title-text{
+   position: relative;
+   color: whitesmoke;
+   z-index: 10;
+   /* margin-top: 50px; */
+   /* margin-top: 0px !important; */
+   font-size: 75px;
+   font-weight:900;
+   margin: 10px 100px 100px 50px;
+   text-align: right; 
+   
+}
+
+.biofilia-box-text-description{
+   position: relative;
+   z-index: 10;
+   margin: 0 100px;
+   color: whitesmoke;
+   font-size: 30px;
+   margin-top: 380px;
+   font-weight:900;
+   text-align: center;   
+}
+
+/* SUBTITLE */
+/* trabalho */
+.main-content-biofilia-subtitle {
+   flex-direction: column
+}
+
+.biofilia-box-subtitle-trabalho-img{
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   outline: 2.5px solid whitesmoke;
+   padding: 3px;
+   margin-top: 10px;
+}
+
+.trabalho-img {
+   clip-path: circle(39% at 50% 50%) ;
+   width: 150px;
+   height: 150px;
+   margin: -12px;
+  /* margin: -25px 0 -30px -50px; */
+  
+}
+
+.biofilia-subtitle-trabalho{
+   margin: 2px 0px;
+   font-size: 30px;
+}
+
+
+/* casa */
+.biofilia-box-subtitle-casa-img{
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   outline: 2.5px solid whitesmoke;
+   padding: 3px;
+   margin-top: 10px;
+}
+
+.casa-img {
+   clip-path: circle(39% at 50% 50%) ;
+  width: 150px;
+  height: 150px;
+  margin: -12px;
+  /* margin: -25px 0 -30px -50px; */
+}
+
+.biofilia-subtitle-casa{
+   margin: 2px 0px;
+   font-size: 30px;
+}
+
+/* vida */
+.biofilia-box-subtitle-vida-img{
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   outline: 2.5px solid whitesmoke;
+   padding: 3px;
+   margin-top: 10px;
+}
+
+.vida-img {
+   clip-path: circle(39% at 50% 50%) ;
+  width: 150px;
+  height: 150px;
+  margin: -12px;
+  /* margin: -25px 0 -30px -50px; */
+}
+
+.biofilia-subtitle-vida{
+   margin: 2px 0px;
+   font-size: 30px;
+}
+
+/* subtitle-text */
+   .biofilia-text {
+        font-size: 25px;
+   } 
+
+
+/* SECTION Missão e Valores */
+
+.main-content-missao-valores {
+   background-color: #D9D9D9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* missão */
+.missao-box-title {
+   margin: 10px 100px 50px 50px;
+   text-align: center;
+   font-size: 55px;
+   font-weight:900;
+}
+
+.missao-box-text{
+   margin: 100px;
+}
+
+.missao-text {
+   text-align: center;
+   font-size: 35px;
+   font-weight:900;
+   margin: 10px 90px;
+}
+
+/* valores */
+.valores-box-title {
+   margin: 10px 100px 50px 50px;
+   text-align: center;
+   font-size: 55px;
+   font-weight:900;
+}
+
+.valores-box-text{
+   margin: 100px;
+}
+
+.valores-text {
+   text-align: center;
+   font-size: 35px;
+   font-weight:900;
+   margin: 10px 90px;
+}
+

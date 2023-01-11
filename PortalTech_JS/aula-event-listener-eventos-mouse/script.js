@@ -20,7 +20,6 @@ function calculoValorTotal(quantProduto) {
  
 
 // evento acao + funcao no botao
-
 addProduto.addEventListener('click', adicionarProduto)
 subProduto.addEventListener('click', subtrairProduto)
 
@@ -45,7 +44,7 @@ function updatesubTotalText(){
   // } else{
   // quantidadeSubtotal.innerText = quantProduto.value + " itens";
   // }
-
+// condicional mais simples
   quantidadeSubtotal.innerText = quantProduto.value == 1? `${quantProduto.value} item` : `${quantProduto.value} items` 
   calculoValorTotal(quantProduto.value)
 }
